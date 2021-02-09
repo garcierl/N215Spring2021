@@ -1,0 +1,161 @@
+.content-sections {
+  position: relative;
+  width: 1150px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 25px 0 25px 25px;
+  display: block;
+  padding-left: 100px;
+  margin-bottom: 25px;
+  padding-bottom: 600px;
+}
+.content-sections .column {
+  width: 50%;
+  float: left;
+}
+.content-sections .left-triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  padding-left: 0px;
+  border-style: solid;
+  border-width: 40px 40px 0 0;
+  border-color: chocolate transparent transparent transparent;
+}
+.content-sections .right-triangle {
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 40px 0;
+  border-color: transparent chocolate transparent transparent;
+}
+
+.text {
+  text-align: left;
+  padding-left: 70px;
+  width: 360px;
+  padding-top: 80px;
+}
+
+.text2 {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.text-content-left {
+  margin: 0px 0px 20px 0px;
+  padding-left: 1000px;
+}
+
+.two-columns .column-float {
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.columns-4 {
+  columns: 4;
+  list-style-type: none;
+}
+
+.top-section {
+  padding-bottom: 55px;
+  border-top: 1.5px solid #000;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.columns-3 {
+  columns: 3;
+  list-style-type: none;
+}
+
+.text-content blockquote {
+  border-left: 1px solid #000;
+  padding-left: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+
+blockquote {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.image-wrapper .text-on-image div:first-child {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-wrapper span {
+  color: #ffffff;
+  font-family: Gotham-Bold, sans-serif !important;
+  font-size: 11px;
+}
+
+.image-wrapper .image-wrapper > div {
+  width: 100%;
+  height: inherit;
+}
+
+.slides img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.clients-start h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 20px 0 20px;
+  font-family: Didot, sans-serif !important;
+}
+
+.clients-start h2 > span {
+  background-color: white;
+  padding: 0 30px;
+  font-size: 100%;
+}
+
+.po-title .title span {
+  font-style: italic;
+}
+
+.title {
+  font-size: 79px;
+  font-family: Didot, sans-serif;
+  line-height: 1em;
+  font-style: italic;
+}

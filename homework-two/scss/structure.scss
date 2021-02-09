@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    vertical-align: baseline;
+}
+
+div {
+    display: block;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    font-family: sans-serif !important;
+    margin-bottom: 16px;
+    margin-top: 20px;
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-family: Didot, sans-serif !important;
+    font-size: 30px;
+    line-height: 1.25em;
+    font-weight: 600;
+    padding-bottom: 500px;
+}
+
+}
+.full-width {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gathering {
+    background-image: url(../images/gathering.jpg);
+}
+
+.mountain {
+    background-image: url(../images/mountain.jpg);
+}

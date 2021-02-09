@@ -1,0 +1,7 @@
+.home {
+  background-color: aqua;
+  background-image: linear-gradient(to right, rgba(255, 255, 222, 0), rgba(255, 255, 255, 0.5)), url(../images/guardians.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

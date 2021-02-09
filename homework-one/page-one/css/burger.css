@@ -1,0 +1,7 @@
+.burger {
+  height: 100%;
+  align-content: center;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/tile-pattern-background-black.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
