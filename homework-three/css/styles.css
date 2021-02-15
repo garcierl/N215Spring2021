@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.hero {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-around;
+}
+.promo-tours .title {
+  font-size: 60px;
+  text-decoration: none;
+  color: white;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+  align-content: center;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.promo-tours .us-title {
+  font-size: 60px;
+  text-decoration: none;
+  color: white;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+  align-content: center;
+  padding-left: 55px;
+  padding-top: 40px;
+}
+.promo-tours .aus-title {
+  font-size: 60px;
+  text-decoration: none;
+  color: white;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+  align-content: center;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+.promo-tours .deal {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+  align-content: center;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+.promo-tours .learn {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 40px;
+  width: 133px;
+  border-radius: 15px;
+  background-color: #79ADDC;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-family: "Gill Sans Nova" sans-serif;
+  font-style: italic;
+}
+.promo-tours .israel-promo {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo-tours .us-promo {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: auto;
+}
+.promo-tours .aus-promo {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #79ADDC;
+}
+footer .logo {
+  width: 78px;
+  height: 40px;
+  margin-left: 150px;
+  padding-top: 21px;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+footer .logo a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT" Regular sans-serif;
+}
+footer .copy-right {
+  height: 15px;
+  width: 350px;
+  margin-top: 45px;
+  padding-left: 40px;
+  align-content: center;
+}
+footer .copy-right p {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT" Regular sans-serif;
+}
+footer .social-media {
+  width: 200px;
+  height: 30px;
+  padding-right: 150px;
+  display: inline;
+  justify-content: space-evenly;
+}
+footer .social-media .facebook {
+  width: 22.46px;
+  height: 22.46px;
+  background-color: white;
+  background-image: url(../images/facebook.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .social-media .instagram {
+  width: 22.46px;
+  height: 22.46px;
+  background-image: url(../images/instagram.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .social-media .twitter {
+  width: 22.46px;
+  height: 22.46px;
+  background-image: url(../images/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+}
+
+.booking-form {
+  width: 837px;
+  margin: 0 auto;
+  height: 934px;
+}
+.booking-form .title {
+  padding-left: 30px;
+  width: 834px;
+  padding-top: 100px;
+  font-size: 60px;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+}
+.booking-form .person {
+  width: 344px;
+  height: 58px;
+  margin: 0 auto;
+  padding-left: 5px;
+  text-align: left;
+  border-color: #79ADDC;
+  border-radius: 1px;
+}
+.booking-form .location {
+  width: 344px;
+  height: 58px;
+  margin: 0 auto;
+  padding-left: 5px;
+  text-align: left;
+  padding-top: 20px;
+}
+.booking-form .dates {
+  width: 834px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 20px;
+  display: inline-block;
+}
+.booking-form .dates label {
+  padding-right: 40px;
+}
+.booking-form .dates > .label-in {
+  padding-right: 95px;
+  padding-bottom: 20px;
+}
+.booking-form .dates > .label-out {
+  padding-right: 87px;
+  padding-bottom: 20px;
+}
+.booking-form .people {
+  margin: 180em;
+  width: 834px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.booking-form .people label {
+  padding-right: 40px;
+}
+.booking-form .Left-Adult {
+  padding-right: 50px;
+}
+.booking-form .center-child {
+  padding-right: 40px;
+  padding-left: 50px;
+}
+.booking-form .right-room {
+  padding-left: 100px;
+}
+.booking-form .Check-in {
+  width: 698px;
+  height: 58px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+  border-radius: 1px;
+}
+.booking-form .Check-out {
+  width: 698px;
+  height: 58px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .Adult {
+  height: 58px;
+  width: 103px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .Child {
+  height: 58px;
+  width: 103px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .Room {
+  height: 58px;
+  width: 103px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .message {
+  height: 192px;
+  width: 818px;
+  margin: 0 auto;
+  border-radius: 1px #79ADDC;
+}
+.booking-form .submit {
+  height: 40px;
+  width: 834px;
+  border-radius: 30px;
+  background-color: #79ADDC;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-family: "Gill Sans Nova" sans-serif;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+}
+nav .logo {
+  width: 80px;
+  height: 30px;
+  padding-top: 10px;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+nav .logo a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT" Regular sans-serif;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+}
+nav .links a {
+  border-right: 1px solid #79ADDC;
+  text-decoration: none;
+  color: white;
+  margin: auto auto;
+  font-family: "Gill Sans MT" sans-serif;
+}
+
+.content {
+  padding-right: 20%;
+  padding-left: 20%;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .title {
+  font-size: 60px;
+  text-decoration: none;
+  color: white;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+  padding-bottom: 45px;
+}
+.content .para {
+  width: 420px;
+  height: 48px;
+  align-content: center;
+  display: inline;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT", sans-serif;
+  font-style: italic;
+  word-wrap: break-word;
+  padding-bottom: 100px;
+}
+.content .button {
+  height: 40.04px;
+  width: 121.62px;
+  border-radius: 1px;
+  background-color: #79ADDC;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-family: "Gill Sans MT" sans-serif;
+  font-style: italic;
+}
