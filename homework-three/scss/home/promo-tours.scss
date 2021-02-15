@@ -1,0 +1,106 @@
+.promo-tours {
+    width: 1280px;
+    height: 304px;
+    margin: -50px auto 0 auto;
+    display: flex;
+    overflow: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+
+    .title {
+        font-size: 60px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Proxima Nova ScOsf';
+        font-style: italic;
+        align-content: center;
+        padding-left: 50px;
+        padding-top: 40px;
+        
+    }
+    .us-title {
+        font-size: 60px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Proxima Nova ScOsf';
+        font-style: italic;
+        align-content: center;
+        padding-left: 55px;
+        padding-top: 40px;
+    }
+
+    .aus-title {
+        font-size: 60px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Proxima Nova ScOsf';
+        font-style: italic;
+        align-content: center;
+        padding-left: 15px;
+        padding-top: 40px;
+    }
+
+
+    .deal {
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Proxima Nova ScOsf';
+        font-style: italic;
+        align-content: center;
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+
+    .learn {
+        margin-top: 50px;
+        margin-left: 50px;
+        height: 40px;
+        width: 133px;
+        border-radius: 15px;
+        background-color:#79ADDC;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size: 15px;
+        font-family: 'Gill Sans Nova' sans-serif;
+        font-style:italic;
+    }
+
+            .israel-promo {
+                height: 304px;
+                width: 236px;
+                background-image: linear-gradient(to right, $overlay, $overlay), url(../images/tour/tour-01.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            
+
+               
+            }
+    
+            
+            .us-promo {
+                height: 304px;
+                width: 236px;
+                background-image: linear-gradient(to right, $overlay, $overlay), url(../images/tour/tour-02.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                padding: auto;
+        
+            }
+        
+          .aus-promo {
+            height: 304px;
+            width: 236px;
+            background-image: linear-gradient(to right, $overlay, $overlay), url(../images/tour/tour-03.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+          }
+        
+}
