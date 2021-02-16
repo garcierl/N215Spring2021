@@ -42,42 +42,42 @@ footer {
             font-family: 'Gill Sans MT' Regular sans-serif;
         }
     }
-
-
-    .social-media{
-        width: 200px;
-        height: 30px;
-        padding-right: 150px;
-        display: inline;
-        justify-content: space-evenly;
-    
-
-
-
-        .facebook {
-            width: 22.46px;
-            height: 22.46px;
-            background-color: white;
-            background-image: url(../images/facebook.png);
-            background-repeat: no-repeat;
-            background-size: contain;
-        }
-
-        .instagram {
-            width: 22.46px;
-            height: 22.46px;
-            background-image: url(../images/instagram.jpg);
-            background-repeat: no-repeat;
-            background-size: contain;
-        }
-
-        .twitter {
-            width: 22.46px;
-            height: 22.46px;
-            background-image: url(../images/twitter.png);
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-color: white;
-        }
-    }
 }
+
+
+
+
+  .column-3 {
+      padding-top: 45px;
+      padding-left: 15px;
+      padding-right: 45px;
+      columns: 3;
+      list-style-type: none;
+  }
+
+  .facebook {
+      width: 22.46px;
+      height: 22.46px;
+      background-color: white;
+      background-image: url(../images/facebook.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+
+  .twitter {
+    width: 22.46px;
+    height: 22.46px;
+    background-color: white;
+    background-image: url(../images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .instagram {
+    width: 22.46px;
+    height: 22.46px;
+    background-color: white;
+    background-image: url(../images/instagram.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
