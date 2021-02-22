@@ -1,0 +1,51 @@
+.content { 
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top:75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-size: 60px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Proxima Nova ScOsf';
+        font-style: italic;
+        padding-bottom: 45px;
+        
+    }
+    
+
+    .para {
+        width: 420px;
+        height: 48px;
+        align-content: center;
+        display: inline;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Gill Sans MT', sans-serif;
+        font-style: italic;
+        word-wrap: break-word;
+        padding-bottom: 100px;
+
+    }
+
+
+    .button {
+        height: 40.04px;
+        width: 121.62px;
+        border-radius: 1px;
+        background-color:#79ADDC;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size: 15px;
+        font-family: 'Gill Sans MT' sans-serif;
+        font-style:italic;
+
+
+    }
+}
