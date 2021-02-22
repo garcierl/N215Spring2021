@@ -1,0 +1,117 @@
+.booking-form {
+  width: 837px;
+  margin: 0 auto;
+  height: 934px;
+}
+.booking-form .title {
+  padding-left: 30px;
+  width: 834px;
+  padding-top: 100px;
+  font-size: 60px;
+  font-family: "Proxima Nova ScOsf";
+  font-style: italic;
+}
+.booking-form .person {
+  width: 344px;
+  height: 58px;
+  margin: 0 auto;
+  padding-left: 5px;
+  text-align: left;
+  border-color: #79ADDC;
+  border-radius: 1px;
+}
+.booking-form .location {
+  width: 344px;
+  height: 58px;
+  margin: 0 auto;
+  padding-left: 5px;
+  text-align: left;
+  padding-top: 20px;
+}
+.booking-form .dates {
+  width: 834px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 20px;
+  display: inline-block;
+}
+.booking-form .dates label {
+  padding-right: 40px;
+}
+.booking-form .dates > .label-in {
+  padding-right: 95px;
+  padding-bottom: 20px;
+}
+.booking-form .dates > .label-out {
+  padding-right: 87px;
+  padding-bottom: 20px;
+}
+.booking-form .people {
+  margin: 180em;
+  width: 834px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.booking-form .people label {
+  padding-right: 40px;
+}
+.booking-form .Left-Adult {
+  padding-right: 50px;
+}
+.booking-form .center-child {
+  padding-right: 40px;
+  padding-left: 50px;
+}
+.booking-form .right-room {
+  padding-left: 100px;
+}
+.booking-form .Check-in {
+  width: 698px;
+  height: 58px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+  border-radius: 1px;
+}
+.booking-form .Check-out {
+  width: 698px;
+  height: 58px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .Adult {
+  height: 58px;
+  width: 103px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .Child {
+  height: 58px;
+  width: 103px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .Room {
+  height: 58px;
+  width: 103px;
+  font-family: "Gill Sans MT", sans-serif;
+  border-color: #79ADDC;
+}
+.booking-form .message {
+  height: 192px;
+  width: 818px;
+  margin: 0 auto;
+  border-radius: 1px #79ADDC;
+}
+.booking-form .submit {
+  height: 40px;
+  width: 834px;
+  border-radius: 30px;
+  background-color: #79ADDC;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-family: "Gill Sans Nova" sans-serif;
+}
