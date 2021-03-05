@@ -17,3 +17,9 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+.about-page {
+  align-content: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
