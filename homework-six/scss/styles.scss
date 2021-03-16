@@ -1,6 +1,10 @@
 @import "variable.scss";
+@import "mixins.scss";
 @import "structure.scss";
 
 
+
+//tour scss
 @import "tour/footer.scss";
 @import "tour/nav.scss";
+@import "tour/header.scss";
