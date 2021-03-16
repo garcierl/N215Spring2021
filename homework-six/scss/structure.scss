@@ -18,8 +18,31 @@ p {
     margin-bottom: 16px;
 }
 
+@font-face {
+    font-family: Gill;
+    src: url(/css/fonts/GillSans.ttc);
+}
+
+
+@font-face {
+    font-family: Proxima;
+    src: url(/css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+
+.center {
+    margin: 0 auto;
+}
+
+
 .tour-page {
     align-content: center;
     padding-right: 250px;
     padding-left: 250px;
+}
+
+.package {
+    align-content: center;
+    width: 981px;
+    margin: 0 auto;
 }
