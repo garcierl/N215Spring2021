@@ -1,0 +1,653 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(/css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(/css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.offerpage {
+  align-content: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.blogpage {
+  align-content: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.contactpage {
+  align-content: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #79ADDC;
+}
+footer .logo {
+  width: 78px;
+  height: 40px;
+  margin-left: 150px;
+  padding-top: 21px;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+footer .logo a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT" Regular sans-serif;
+}
+footer .copy-right {
+  height: 15px;
+  width: 350px;
+  margin-top: 45px;
+  padding-left: 40px;
+  align-content: center;
+}
+footer .copy-right p {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans MT" Regular sans-serif;
+}
+
+.column-3 {
+  padding-top: 45px;
+  padding-left: 15px;
+  padding-right: 45px;
+  columns: 3;
+  list-style-type: none;
+}
+
+.facebook {
+  width: 22.46px;
+  height: 22.46px;
+  background-color: white;
+  background-image: url(/images/facebook.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.twitter {
+  width: 22.46px;
+  height: 22.46px;
+  background-color: white;
+  background-image: url(/images/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.instagram {
+  width: 22.46px;
+  height: 22.46px;
+  background-color: white;
+  background-image: url(/images/instagram.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #000 solid 2px;
+}
+nav .logo {
+  width: 80px;
+  height: 30px;
+  padding-top: 10px;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+nav .logo a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: "Gill Sans MT" Regular sans-serif;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+}
+nav .links a {
+  padding-right: 25px;
+  border-right: 1px solid #79ADDC;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  font-family: "Gill Sans MT" sans-serif;
+}
+
+header {
+  max-width: 981px;
+  margin: 20px auto 0 auto;
+  height: 200px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header span {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.tours {
+  max-width: 818px;
+  margin: 48px auto 0 auto;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tours .tourpromo {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+}
+.tours .tourpromo .BGimg-1 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-1 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-1 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-2 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-2 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-2 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-3 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-3 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-3 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-4 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-4 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-4 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-5 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-5 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-5 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-6 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-6 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-6 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-7 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-7 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-7 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-8 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-8 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-8 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .BGimg-9 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tour/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tours .tourpromo .BGimg-9 p {
+  color: white;
+  font-family: Proxima;
+  font-size: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+.tours .tourpromo .BGimg-9 .price {
+  color: white;
+  font-family: Proxima;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tours .tourpromo .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  font-family: "Gill Sans Nova" sans-serif;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 75px;
+}
+
+@media all and (max-width: 1200px) {
+  .tours {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+h1 {
+  font-size: 30px;
+  font-family: Proxima;
+  font-style: italic;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  font-family: "Gill Sans Nova" sans-serif;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 75px;
+}
+
+.offer-1 {
+  width: 600px;
+  height: 287px;
+  margin-bottom: 150px;
+}
+.offer-1 .spain-image {
+  width: 199px;
+  height: 100%;
+  background-image: url(/images/special-offer-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.offer-1 .title {
+  font-size: 30px;
+  font-family: Proxima;
+  font-style: italic;
+  display: block;
+  flex-wrap: wrap;
+}
+.offer-1 .title .discount {
+  color: #FF7D38;
+  font-size: 20px;
+  float: right;
+  margin-right: 140px;
+}
+.offer-1 .title .border {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: black solid 2px;
+}
+
+.offer-2 {
+  width: 600px;
+  height: 287px;
+  margin-bottom: 150px;
+}
+.offer-2 .thailand-image {
+  width: 199px;
+  height: 100%;
+  background-image: url(/images/special-offer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.offer-2 .title {
+  font-size: 30px;
+  font-family: Proxima;
+  font-style: italic;
+  display: block;
+  flex-wrap: wrap;
+}
+.offer-2 .title .discount {
+  color: #FF7D38;
+  font-size: 20px;
+  float: right;
+  margin-right: 130px;
+}
+.offer-2 .title .border {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: black solid 2px;
+}
+
+.offer-text {
+  font-size: 16px;
+  font-family: Gill;
+  font-weight: bold;
+  margin-bottom: 150px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Proxima;
+  font-style: italic;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79ADDC;
+  font-size: 15px;
+  font-family: "Gill Sans Nova" sans-serif;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 75px;
+}
+
+.border {
+  content: "";
+  display: block;
+  width: 106px;
+  border-bottom: black solid 2px;
+  margin-bottom: 25px;
+}
+
+.blog-1 {
+  margin-bottom: 50px;
+}
+.blog-1 .june-date {
+  background-image: url(/images/junedate.jpg);
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-2 {
+  margin-bottom: 50px;
+}
+.blog-2 .july-date {
+  background-image: url(/images/julydate.jpg);
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-image {
+  margin-left: 100px;
+  background-image: url(/images/blog.jpg);
+  width: 980px;
+  height: 259px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family: Gill;
+  margin-left: 100px;
+}
+
+.text-2 {
+  width: 380px;
+  color: #79ADDC;
+  font-size: 13px;
+  font-family: Gill;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Proxima;
+  font-style: italic;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+input {
+  display: block;
+  margin-top: 21px;
+  padding-left: 21px;
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: 0;
+}
+
+button {
+  width: 167px;
+  height: 60px;
+  background-color: #79ADDC;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 15px;
+  font-family: Gill;
+  margin-top: 20px;
+  border: none;
+  left: 0;
+  top: 0;
+}
+
+.map-text {
+  padding: 50px;
+  float: left;
+}
+
+.border {
+  content: "";
+  display: block;
+  width: 106px;
+  border-bottom: black solid 2px;
+  margin-bottom: 25px;
+}
+
+p {
+  margin-top: 25px;
+  font-size: 18px;
+  font-family: Gill;
+  font-weight: bold;
+}
+
+.map {
+  width: 400px;
+  height: 442px;
+  background-image: url(/images/map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-boxes {
+  float: left;
+  margin-top: 25px;
+}
+
+.message {
+  width: 529px;
+  height: 199px;
+  border: none;
+  left: 0;
+  top: 0;
+}
