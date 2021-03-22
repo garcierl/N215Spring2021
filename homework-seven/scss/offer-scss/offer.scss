@@ -1,0 +1,113 @@
+h1 {
+    font-size: 30px;
+    font-family: Proxima;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.promoBtn{
+    @include siteButton();
+    font-size: 15px;
+    font-family: 'Gill Sans Nova' sans-serif;
+    font-style:italic;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.offer-1 {
+    width: 600px;
+    height: 287px;
+    margin-bottom: 150px;
+
+    .spain-image{
+        width: 199px;
+        height: 100%;
+        background-image: url(/images/special-offer-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+
+    .title {
+        font-size: 30px;
+        font-family: Proxima;
+        font-style: italic;
+        display: block;
+        flex-wrap: wrap;
+
+
+        .discount {
+            color: #FF7D38;
+            font-size: 20px;
+            float: right;
+            margin-right: 140px;
+        }
+
+        .border {
+            content: "";
+            display: block;
+            width: 150px;
+            border-bottom: black solid 2px;
+        }
+
+    } 
+}
+
+    .offer-2{
+        width: 600px;
+        height: 287px;
+        margin-bottom: 150px;
+
+        .thailand-image {
+            width: 199px;
+            height: 100%;
+            background-image: url(/images/special-offer-02.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            float: left;
+            margin-right: 25px;
+            margin-top: 25px;
+        }
+
+
+
+        .title {
+            font-size: 30px;
+            font-family: Proxima;
+            font-style: italic;
+            display: block;
+            flex-wrap: wrap;
+    
+    
+            .discount {
+                color: #FF7D38;
+                font-size: 20px;
+                float: right;
+                margin-right: 130px;
+            }
+    
+            .border {
+                content: "";
+                display: block;
+                width: 150px;
+                border-bottom: black solid 2px;
+            }
+    }
+}
+
+    .offer-text {
+        font-size: 16px;
+        font-family: Gill;
+        font-weight: bold;
+        margin-bottom: 150px;
+    }
+    
