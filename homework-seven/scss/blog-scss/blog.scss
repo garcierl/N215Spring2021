@@ -1,0 +1,83 @@
+h1 {
+    font-size: 30px;
+    font-family: Proxima;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.promoBtn{
+    @include siteButton();
+    font-size: 15px;
+    font-family: 'Gill Sans Nova' sans-serif;
+    font-style:italic;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.border {
+    content: "";
+    display: block;
+    width: 106px;
+    border-bottom: black solid 2px;
+    margin-bottom: 25px;
+}
+
+
+.blog-1 {
+    margin-bottom: 50px;
+    .june-date{
+        background-image: url(/images/junedate.jpg);
+        width: 60px;
+        height: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+.blog-2 {
+
+    margin-bottom: 50px;
+    .july-date{
+        background-image: url(/images/julydate.jpg);
+        width: 60px;
+        height: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.blog-image {
+    margin-left: 100px;
+    background-image: url(/images/blog.jpg);
+    width: 980px;
+    height: 259px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-family: Gill;
+    margin-left: 100px;
+
+}
+
+.text-2{
+    width: 380px;
+    color: #79ADDC;
+    font-size: 13px;
+    font-family: Gill;
+    margin-left: 100px;
+}
