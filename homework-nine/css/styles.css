@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    color: black;
+    font-size: 25px;
+    font-family:  'Gill Sans MT',  sans-serif;
+    margin-bottom: 16px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+nav a{
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family:  'Gill Sans MT',  sans-serif; 
+}
+
+.home {
+    
+    margin-left: 540px;
+    padding: 100px;
+    width: 800px;
+    background-color: aquamarine;
+    margin-top: 50px;
+
+
+}
+
+.images {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home1 {
+    background-image: url("../images/home1.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.home2 {
+    background-image: url("../images/home2.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.home3 {
+    background-image: url("../images/home3.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.about1 {
+    background-image: url("../images/about1.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.about2{
+    background-image: url("../images/about2.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.about3{
+    background-image: url("../images/about3.jpeg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.product1 {
+    background-image: url("../images/product1.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.product2 {
+    background-image: url("../images/product2.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.product3 {
+    background-image: url("../images/product3.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.contact1 {
+    background-image: url("../images/contact1.jpeg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.contact2 {
+    background-image: url("../images/contact2.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.contact3 {
+    background-image: url("../images/contact3.jpg");
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+
+.about {
+    margin-left: 540px;
+    padding: 100px;
+    width: 800px;
+    background-color: chartreuse;
+}
+
+
+.abouttext {
+    margin-top: 50px;
+    margin-left: 540px;
+    padding: 100px;
+    width: 800px;
+    background-color: chartreuse;
+}
+.products {
+    margin-top: 50px;
+    margin-left: 540px;
+    padding: 100px;
+    width: 800px;
+    background-color: crimson;
+}
+
+
+.contact {
+    margin-left: 540px;
+    padding: 100px;
+    width: 800px;
+    background-color: yellow;
+}
+
+ul {
+    color: black;
+    font-size: 25px;
+    font-family:  'Gill Sans MT',  sans-serif;
+    margin-bottom: 16px;
+}
+
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+
+footer p {
+    margin-left: 665px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family:  'Gill Sans MT',  sans-serif; 
+}
