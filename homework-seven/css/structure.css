@@ -20,11 +20,11 @@ p {
 
 @font-face {
   font-family: Gill;
-  src: url(/css/fonts/GillSans.ttc);
+  src: url("../css/fonts/GillSans.ttc");
 }
 @font-face {
   font-family: Proxima;
-  src: url(/css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  src: url("../css/fonts/ProximaNovaScOsfExtraCondensed.ttf");
 }
 .offerpage {
   align-content: center;
