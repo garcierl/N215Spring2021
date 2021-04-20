@@ -5,7 +5,7 @@
         to bottom,
         rgba(0,0,0,.5),
         rgba(0,0,0,.5)
-    ), url(/images/tour/tour-06.jpg);
+    ), url(../images/tour/tour-06.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -48,7 +48,7 @@ flex-wrap: wrap;
     .egypt-1 {
         width: 100%;
         height: 100%;
-        background-image: url(/images/tour/tour-egypt/egypt-tour-01.jpg);
+        background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -57,7 +57,7 @@ flex-wrap: wrap;
     .egypt-2 {
         width: 100%;
         height: 100%;
-        background-image: url(/images/tour/tour-egypt/egypt-tour-02.jpg);
+        background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -66,7 +66,7 @@ flex-wrap: wrap;
     .egypt-3 {
         width: 100%;
         height: 100%;
-        background-image: url(/images/tour/tour-egypt/egypt-tour-03.jpg);
+        background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
