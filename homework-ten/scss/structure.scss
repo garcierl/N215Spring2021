@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    height: 100%;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    margin-bottom: 16px;
+}
+
+.about-page {
+    align-content: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+@font-face {
+    font-family: Gill;
+    src: url(../css/fonts/GillSans.ttc);
+}
+
+
+@font-face {
+    font-family: Proxima;
+    src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+
+.center {
+    margin: 0 auto;
+}
+
+
+.tour-page {
+    align-content: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.package {
+    align-content: center;
+    width: 981px;
+    margin: 0 auto;
+}
+
+
+.offerpage {
+    align-content: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.blogpage {
+    align-content: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.contactpage {
+    align-content: center;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+footer {
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 auto;
+    background-color: #79ADDC;
+
+    .logo{
+            width: 78px;
+            height: 40px;
+            margin-left: 150px;
+            padding-top:21px;
+            margin-top: 30px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: white;
+        
+
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            font-family: 'Gill Sans MT' Regular sans-serif;
+        }
+    }
+
+
+    .copy-right{
+        height: 15px;
+        width: 350px;
+        margin-top: 45px;
+        padding-left: 40px;
+        align-content: center;
+
+
+
+        p{
+            font-size: 12px;
+            text-decoration: none;
+            color: white;
+            font-family: 'Gill Sans MT' Regular sans-serif;
+        }
+    }
+}
+
+
+
+
+  .column-3 {
+      padding-top: 45px;
+      padding-left: 15px;
+      padding-right: 45px;
+      columns: 3;
+      list-style-type: none;
+  }
+
+  .facebook {
+      width: 22.46px;
+      height: 22.46px;
+      background-color: white;
+      background-image: url(../images/facebook.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+
+  .twitter {
+    width: 22.46px;
+    height: 22.46px;
+    background-color: white;
+    background-image: url(../images/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .instagram {
+    width: 22.46px;
+    height: 22.46px;
+    background-color: white;
+    background-image: url(../images/instagram.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
