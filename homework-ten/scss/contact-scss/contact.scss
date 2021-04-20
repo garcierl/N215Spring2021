@@ -1,0 +1,84 @@
+h1 {
+    font-size: 30px;
+    font-family: Proxima;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+input {
+
+    display: block;
+    margin-top: 21px;
+    padding-left: 21px;
+    width: 529px;
+    height: 60px;
+    background-color: #F5F5F5;
+    border: 0;
+}
+
+button {
+        width: 167px;
+        height: 60px;
+        background-color:#79ADDC;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        color: white;
+        font-size: 15px;
+        font-family: Gill;
+        margin-top: 20px;
+        border: none;
+        left: 0;
+        top: 0;
+        margin-bottom: 50px;
+    
+}
+
+
+.map-text{
+    padding: 50px;
+    float: left;
+}
+
+
+.border {
+    content: "";
+    display: block;
+    width: 106px;
+    border-bottom: black solid 2px;
+    margin-bottom: 25px;
+}
+
+
+p{
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: Gill;
+    font-weight: bold;
+}
+
+.map{
+    width: 400px;
+    height: 442px;
+    background-image: url("../images/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-boxes {
+    float: left;
+    margin-top: 25px;
+    right: 100px;
+    
+}
+
+.message {
+    
+    width: 529px;
+    height: 199px;
+    border: none;
+        left: 0;
+        top: 0;
+}
