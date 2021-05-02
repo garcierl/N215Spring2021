@@ -1,0 +1,92 @@
+.blog-title {
+    margin-left: 460px;
+    margin-top: 50px;
+    align-items: left;
+    font-size: 25px;
+    font-family: 'Gill Sans' sans-serif;
+    .border-bottom {
+        border-bottom: black solid 2px;
+        position: absolute;
+        width: 229px;
+        white-space: nowrap;
+    }
+}
+
+
+.blogs {
+    width: 960px;
+    min-height: 514px;
+    margin-left: 460px;
+    justify-content: space-between;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    
+
+    .june-blog {
+        width: 460px;
+        min-height: 257px;
+
+
+        
+    }
+    .july-blog {
+        width: 460px;
+        min-height: 257px;
+        
+    }
+
+    .aug-blog {
+        width: 460px;
+        min-height: 257px;
+    }
+
+    .nov-blog {
+        width: 460px;
+        min-height: 257px;
+       
+    }
+
+    .dec-blog {
+        width: 460px;
+        min-height: 257px;
+    }
+
+
+    .blog-link {
+        width: 380px;
+        height: 140px;
+        background-image: url(../images/blog.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        align-self: center;
+        float: right;
+        
+    }
+
+    .p{
+        text-align: left;
+    }
+    .white-text {
+        margin-top: 25px;
+        width: 380px;
+        float: right;
+        font-size: 15px;
+        font-family: 'Gill Sans MT';
+        text-decoration: none;
+
+    }
+
+    .red-text {
+        width: 380px;
+        float: right;
+        font-size: 13px;
+        color: $site-red;
+        font-family: 'Gill Sans MT';
+        text-decoration: none;
+    }
+}
