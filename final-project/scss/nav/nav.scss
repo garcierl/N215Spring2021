@@ -1,0 +1,100 @@
+.white_nav {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #fff solid 2px;
+    
+
+    .logo {
+        width: 109px;
+        height: 100%;
+    }
+    .links {
+        font-size: 15px;
+        font-family: Gill;
+        text-decoration: none;
+        color: white;
+        
+            a {
+                font-size: 20px;
+                text-decoration: none;
+                color: white;
+                font-family: Gill;
+                
+        }
+        span {
+            color: $site-red;
+            font-size: 25px;
+            margin: 10px;
+        }
+    }
+}
+
+.black_nav {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black solid 2px;
+    
+
+    .logo {
+        width: 109px;
+        height: 100%;
+    }
+    .links {
+        font-size: 15px;
+        font-family: Gill;
+        text-decoration: none;
+        color: black;
+        
+            a {
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+                font-family: Gill;
+                
+        }
+        span {
+            color: $site-red;
+            font-size: 25px;
+            margin: 10px;
+        }
+    }
+}
+    .hero {
+        width: 1280px;
+        height: 500px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, $site-yellow-rgb, $site-yellow-rgb), url(../images/home-hero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
