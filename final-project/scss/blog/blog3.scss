@@ -1,0 +1,67 @@
+.blog-head {
+    background-image: linear-gradient(to right, $site-red-rgb, $site-red-rgb), url(../images/blog.jpg);
+    width: 981px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+    margin-left: 460px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.date-blog3 {  
+    background-image: url(../images/dates/aug30.png);
+    width: 155.25px;
+    height: 155.25px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+    margin-left: 420px;
+    margin-top: 65px;
+
+}
+
+.blog-paras {
+    width: 856px;
+    min-height: 436px;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 460px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.blog-h1 {
+    color: $site-red;
+    font-family: 'Gill';
+    font-size: 20px;
+}
+
+.blog-h2 {
+    margin-top: 75px;
+    color: $site-red;
+    font-family: 'Gill';
+    font-size: 20px;
+}
+
+
+.para-1-5 {
+    font-family: 'Gill';
+    font-size: 20px;
+}
+
+.para-1 {
+    margin-bottom: 25px;
+    font-family: 'Gill';
+    font-size: 20px;
+}
+
+.second-para {
+    margin-bottom: 100px;
+    font-family: 'Gill';
+    font-size: 20px;
+}
