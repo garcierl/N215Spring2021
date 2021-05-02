@@ -34,6 +34,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`gallery`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;
@@ -42,6 +43,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`gallery1`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;
@@ -50,6 +52,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`gallery2`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break; 
@@ -58,6 +61,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`gallery3`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;   
@@ -66,6 +70,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`gallery4`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break; 
@@ -74,6 +79,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`gallery5`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;  
@@ -82,6 +88,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`blog`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                // MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;
@@ -90,6 +97,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`blog1`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 // MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break; 
@@ -98,6 +106,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`blog2`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 // MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;   
@@ -106,6 +115,7 @@ function init() {
                removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`blog3`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 // MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                break;   
@@ -114,6 +124,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`blog4`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                // MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID);
                 break;  
@@ -121,6 +132,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`blog5`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 // MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID);
                 break;                   
@@ -128,6 +140,7 @@ function init() {
                 removeAllClass();
                 $(`#classSwitch`).closest(`div#classSwitch`).addClass(`contact`);
                 $(`nav`).removeClass(`white_nav`).addClass(`black_nav`);
+                logo.src="../images/logo/logo-black.png"; 
                 //MODEL.getPageStuff(heroID);
                 MODEL.getPageContent(contentID, addPromoListeners);
                 break;
