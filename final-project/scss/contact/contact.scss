@@ -1,0 +1,84 @@
+.contact-title {
+    font-size: 25px;
+    font-family: "Gill";
+    margin-left: 460px;
+    margin-top: 50px;
+}
+
+.contact-border{
+    border-bottom: black solid 2px;
+        position: absolute;
+        width: 350px;
+        white-space: nowrap;
+}
+
+.contact-info{
+    margin-left: 460px;
+    margin-top: 25px;
+    width: 1100px;
+    
+    
+}
+
+.name {
+    margin-top: 90px;
+}
+
+
+.text-boxes {
+    //float: left;
+    margin-top: 50px;
+    right: 25px;
+    
+}
+
+.message {
+    
+    width: 529px;
+    height: 199px;
+    border: none;
+    left: 0;
+    top: 0;
+}
+
+ input {
+
+    display: block;
+    margin-top: 21px;
+    padding-left: 21px;
+    width: 529px;
+    height: 60px;
+    background-color: #F5F5F5;
+    border: 0;
+}
+
+.contact-us {
+    width: 167px;
+    height: 60px;
+    background-color: $site-red;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-family: "Gill";
+    margin-top: 25px;
+    border: none;
+    left: 0;
+    top: 0;
+    margin-bottom: 50px;
+
+}
+
+.map {
+    background-image: url(../images/map.jpg);
+    width: 400px;
+    height: 442px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+    flex-direction: row;
+    float: right;
+    margin-right: 100px;
+}
