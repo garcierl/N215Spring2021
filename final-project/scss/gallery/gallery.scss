@@ -1,0 +1,82 @@
+.gallery {
+    align-items: center;
+
+
+.gallery-title {
+    font-size: 25px;
+    font-family: Gill;
+    padding-top: 50px;
+    padding-left: 450px;
+    .gallery-border {
+        border-bottom: black solid 2px;
+        position: absolute;
+        width: 229px;
+        white-space: nowrap;
+        margin-bottom: 25px;
+    }
+}
+
+.pictures {
+    margin-left: 450px;
+    margin-top: 35px;
+    .row-1{
+        width: 986px;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        .food {
+            width: 489px;
+            height: 187px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to right, $site-yellow-rgb, $site-yellow-rgb), url(../images/gallery/1.png);
+        }
+
+        .concert {
+            width: 187px;
+            height: 187px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to right, $site-red-rgb, $site-red-rgb), url(../images/gallery/2.jpeg);
+        }
+
+        .speaker {
+            width: 265px;
+            height: 187px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient($site-green-rgb, $site-green-rgb), url(../images/gallery/3.jpg);
+        }
+    }
+    .row-2 {
+        width: 986px;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        margin-right: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        .dining {
+            width: 603px;
+            height: 306px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to right, $site-purple-rgb, $site-purple-rgb), url(../images/gallery/4.jpg);
+        }
+
+        .toronto {
+            width: 355px;
+            height: 306px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(to right, $site-teal-rgb, $site-teal-rgb), url(../images/gallery/5.png);
+        }
+    }
+}
+}
